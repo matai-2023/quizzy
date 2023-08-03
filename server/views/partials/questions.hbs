@@ -1,20 +1,12 @@
- 
-	<table>
-	<tr>
-	  <td>
-	  	<div>
-        {{#each questions}}
-        	<p>{{question}}</p>
-          {{#each answers}}  	
-	    	    <ul>
-	    	      <li><input class="answer" type="radio">
-	              <label>{{content}}</label>
-              </li>
-    		    </ul>
-          {{/each}}
-        {{/each}}
-	  	</div>
-	  </td>
+<span>Only one per question:</span>
+<div>
+  {{#each questions}}
+    <label for='html'>{{question}}
+      {{#each answers}}
+        <input type='checkbox' value='html' id='html' />
+        {{content}}
+      {{/each}}
+    </label>
+  {{/each}}
 
-
-	
+</div>
