@@ -1,7 +1,7 @@
 <span>Only one per question:</span>
-<div style='display: flex; flex-direction:column'>
+<div style='display: flex; flex-direction:column; padding: 5px;'>
   {{#each questions}}
-    <label for='html'>{{question}}
+    <label for='html' style="padding: 8px;">{{question}}
       {{#each answers}}
         <input type='radio' value='html' id='html' name='choice{{../id}}' />
         {{content}}
