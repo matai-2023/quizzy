@@ -4,23 +4,17 @@
 	  <td>
 	  	<div>
         {{#each questions}}
-	  		<p>{{id}} - {{question}}/p>
-	    	<ul>
-	    	<input class="answer" type="radio">
-	        <label>{{answers[0]content}}</label>
-	    	<br>
-	        <input class="answer" type="radio">
-	        <label>{{answers[1]content}}</label>
-	        <br>
-	        <input class="answer" type="radio">
-	        <label>{{answers[2]content}}</label>
-	        <br>
-	        <input class="answer" type="radio">
-	        <label>{{answers[3]content}}</label>
-    		</ul>
+        	<p>{{question}}</p>
+          {{#each answers}}  	
+	    	    <ul>
+	    	      <li><input class="answer" type="radio">
+	              <label>{{content}}</label>
+              </li>
+    		    </ul>
+          {{/each}}
         {{/each}}
 	  	</div>
 	  </td>
 
-    {{>quizbutton}}
+
 	

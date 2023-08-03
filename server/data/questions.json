@@ -2,114 +2,91 @@
   "questions":[
     {
       "id":1,
-      "question": "",
+      "question": "Q1",
       "answers":[
         {
-          "content": " ",
-          "score": 
+          "content": " A1",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": " A2",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": " A3",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "A4 ",
+          "score": 2
+        }
       ]
     },
     {
       "id":2,
-      "question": "",
+      "question": "Q2",
       "answers":[
         {
-          "content": " ",
-          "score": 
+          "content": " B1",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": " B2",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": "B3",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "B4",
+          "score": 2
+        }
       ]
     },
     {
       "id":3,
-      "question": "",
+      "question": "C1",
       "answers":[
         {
-          "content": " ",
-          "score": 
+          "content": " 3123123",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": " 123123",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": " asdff",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
-        },
-      ]
-    },
-    {
-      "id":4,
-      "question": "",
-      "answers":[
-        {
-          "content": " ",
-          "score": 
-        },
-        {
-          "content": " ",
-          "score": 
-        },
-        {
-          "content": " ",
-          "score": 
-        },
-        {
-          "content": " ",
-          "score": 
-        },
+          "content": "sdgdgh ",
+          "score": 2
+        }
       ]
     },
     {
       "id":5,
-      "question": "",
+      "question": "123123",
       "answers":[
         {
-          "content": " ",
-          "score": 
+          "content": " 3123123",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": " 123123",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": " asdff",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "sdgdgh ",
+          "score": 2
+        }
       ]
-    },
+    }
   ]
 }
- 
