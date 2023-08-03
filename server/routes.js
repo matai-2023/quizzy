@@ -17,4 +17,7 @@ quizzz.get('/', async (req, res) => {
   res.render('quizzes', question)
 })
 
-quizzz.post('/', async (req, res) => {})
+quizzz.post('/', async (req, res) => {
+  const body = req.body
+  // console.log(body)
+})
