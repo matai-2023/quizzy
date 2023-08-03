@@ -18,11 +18,6 @@ quizzz.get('/', async (req, res) => {
 })
 
 quizzz.post('/', async (req, res) => {
-<<<<<<< HEAD
   const body = req.body
-  // console.log(body)
-=======
-  let body = req.body
   console.log(body)
->>>>>>> 4416fcef39e531a1bc689f996abb7c00f95a8817
 })
