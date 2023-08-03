@@ -1,9 +1,9 @@
 <span>Only one per question:</span>
-<div>
+<div style='display: flex; flex-direction:column'>
   {{#each questions}}
     <label for='html'>{{question}}
       {{#each answers}}
-        <input type='checkbox' value='html' id='html' />
+        <input type='radio' value='html' id='html' name='choice{{../id}}' />
         {{content}}
       {{/each}}
     </label>
