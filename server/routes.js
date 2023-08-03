@@ -16,8 +16,3 @@ quizzz.get('/', async (req, res) => {
   const question = JSON.parse(data)
   res.render('quizzes', question)
 })
-
-quizzz.post('/', async (req, res) => {
-  const body = req.body
-  console.log(body)
-})
