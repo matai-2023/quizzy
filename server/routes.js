@@ -18,3 +18,7 @@ quizzz.get('/', async (req, res) => {
 })
 
 quizzz.post('/', async (req, res) => {})
+
+quizzz.get('/about', async (req, res) => {
+  res.render('about')
+})
