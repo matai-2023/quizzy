@@ -11,14 +11,25 @@ export default quizzz
 
 quizzz.get('/', async (req, res) => {
   const filePath = Path.join(__dirname, 'data', 'questions.json')
-  console.log(filePath)
+  // console.log(filePath)
   const data = await fs.readFile(filePath, 'utf-8')
   const question = JSON.parse(data)
   res.render('quizzes', question)
 })
 
+<<<<<<< HEAD
 quizzz.post('/', async (req, res) => {})
 
 quizzz.get('/about', async (req, res) => {
   res.render('about')
+=======
+quizzz.post('/', async (req, res) => {
+<<<<<<< HEAD
+  const body = req.body
+  // console.log(body)
+=======
+  let body = req.body
+  console.log(body)
+>>>>>>> 4416fcef39e531a1bc689f996abb7c00f95a8817
+>>>>>>> a34e2a1ad9be967e5f3cca07dc96a548b111e391
 })
