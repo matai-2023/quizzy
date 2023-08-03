@@ -3,7 +3,9 @@ import * as URL from 'node:url'
 import * as fs from 'node:fs/promises'
 import express from 'express'
 import hbs from 'express-handlebars'
+import quizzz from './routes.js'
 
+//constructing file path
 const __filename = URL.fileURLToPath(import.meta.url)
 const __dirname = Path.dirname(__filename)
 const filePath = Path.join(__dirname, 'data', 'data.json')
@@ -28,5 +30,5 @@ server.get('/', (req, res) => {
   const viewData = usThree
   res.render('home', viewData)
 })
-
+server.use('/quizz', quizzz)
 export default server

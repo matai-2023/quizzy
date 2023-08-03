@@ -1,115 +1,114 @@
 {
-  "questions":[
+  "questions": [
     {
-      "id":1,
-      "question": "",
-      "answers":[
+      "id": 1,
+      "question": "What's your favourite Color?",
+      "answers": [
         {
-          "content": " ",
-          "score": 
+          "content": "Yellow",
+          "score": 5
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Red",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Blue",
+          "score": 3
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "Green",
+          "score": 2
+        }
       ]
     },
     {
-      "id":2,
-      "question": "",
-      "answers":[
+      "id": 2,
+      "question": "What's your favourite friut?",
+      "answers": [
         {
-          "content": " ",
-          "score": 
+          "content": " Raspberry",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Banana",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": "Feijoa",
+          "score": 3
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "Blueberry",
+          "score": 5
+        }
       ]
     },
     {
-      "id":3,
-      "question": "",
-      "answers":[
+      "id": 3,
+      "question": "What's your favourite seasoning/garnish?",
+      "answers": [
         {
-          "content": " ",
-          "score": 
+          "content": " Turmeric",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Butterfly pea",
+          "score": 5
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Coriander leaves",
+          "score": 3
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "Chilli powder ",
+          "score": 4
+        }
       ]
     },
     {
-      "id":4,
-      "question": "",
-      "answers":[
+      "id": 4,
+      "question": "What's your favourite weather?",
+      "answers": [
         {
-          "content": " ",
-          "score": 
+          "content": " Chilly",
+          "score": 3
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Hot",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Cold",
+          "score": 5
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "Warm ",
+          "score": 6
+        }
       ]
     },
     {
-      "id":5,
-      "question": "",
-      "answers":[
+      "id": 5,
+      "question": "What's your favourite pet?",
+      "answers": [
         {
-          "content": " ",
-          "score": 
+          "content": " Canary bird",
+          "score": 6
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Husky",
+          "score": 5
         },
         {
-          "content": " ",
-          "score": 
+          "content": " Ginger cat",
+          "score": 4
         },
         {
-          "content": " ",
-          "score": 
-        },
+          "content": "Turtle ",
+          "score": 3
+        }
       ]
-    },
+    }
   ]
 }
- 
