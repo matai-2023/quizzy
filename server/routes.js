@@ -10,9 +10,11 @@ const quizzz = express.Router()
 export default quizzz
 
 quizzz.get('/', async (req, res) => {
-  const filePath = Path.join(__dirname, 'data', 'data.json')
+  const filePath = Path.join(__dirname, 'data', 'questions.json')
+  console.log(filePath)
   const data = await fs.readFile(filePath, 'utf-8')
-
-  const people = JSON.parse(data)
-  res.render('home', people)
+  const question = JSON.parse(data)
+  res.render('quizzes', question)
 })
+
+quizzz.post('/', async (req, res) => {})
