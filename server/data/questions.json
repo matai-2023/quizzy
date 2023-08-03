@@ -1,9 +1,9 @@
 {
-  "questions":[
+  "questions": [
     {
-      "id":1,
-      "question": "Whats your favourite Color?",
-      "answers":[
+      "id": 1,
+      "question": "What's your favourite Color?",
+      "answers": [
         {
           "content": "Yellow",
           "score": 5
@@ -23,90 +23,90 @@
       ]
     },
     {
-      "id":2,
-      "question": "Q2",
-      "answers":[
+      "id": 2,
+      "question": "What's your favourite friut?",
+      "answers": [
         {
-          "content": " B1",
-          "score": 6
-        },
-        {
-          "content": " B2",
+          "content": " Raspberry",
           "score": 4
         },
         {
-          "content": "B3",
+          "content": " Banana",
           "score": 6
         },
         {
-          "content": "B4",
-          "score": 2
+          "content": "Feijoa",
+          "score": 3
+        },
+        {
+          "content": "Blueberry",
+          "score": 5
         }
       ]
     },
     {
-      "id":3,
-      "question": "C1",
-      "answers":[
+      "id": 3,
+      "question": "What's your favourite seasoning/garnish?",
+      "answers": [
         {
-          "content": " 3123123",
+          "content": " Turmeric",
           "score": 6
         },
         {
-          "content": " 123123",
+          "content": " Butterfly pea",
+          "score": 5
+        },
+        {
+          "content": " Coriander leaves",
+          "score": 3
+        },
+        {
+          "content": "Chilli powder ",
           "score": 4
-        },
-        {
-          "content": " asdff",
-          "score": 6
-        },
-        {
-          "content": "sdgdgh ",
-          "score": 2
         }
       ]
     },
     {
-      "id":4,
-      "question": "123123",
-      "answers":[
+      "id": 4,
+      "question": "What's your favourite weather?",
+      "answers": [
         {
-          "content": " 3123123",
-          "score": 6
+          "content": " Chilly",
+          "score": 3
         },
         {
-          "content": " 123123",
+          "content": " Hot",
           "score": 4
         },
         {
-          "content": " asdff",
-          "score": 6
+          "content": " Cold",
+          "score": 5
         },
         {
-          "content": "sdgdgh ",
-          "score": 2
+          "content": "Warm ",
+          "score": 6
         }
       ]
     },
     {
-      "id":5,
-      "question": "123123",
-      "answers":[
+      "id": 5,
+      "question": "What's your favourite pet?",
+      "answers": [
         {
-          "content": " 3123123",
+          "content": " Canary bird",
           "score": 6
         },
         {
-          "content": " 123123",
+          "content": " Husky",
+          "score": 5
+        },
+        {
+          "content": " Ginger cat",
           "score": 4
         },
         {
-          "content": " asdff",
-          "score": 6
-        },
-        {
-          "content": "sdgdgh ",
-          "score": 2
+          "content": "Turtle ",
+          "score": 3
         }
       ]
     }
