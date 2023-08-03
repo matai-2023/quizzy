@@ -144,3 +144,8 @@ body {
 .btn-7 span:hover:after {
   width: 100%;
 }
+
+header {
+  padding: 60px;
+  text-align: center;
+}
