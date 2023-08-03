@@ -2,22 +2,22 @@
   "questions":[
     {
       "id":1,
-      "question": "Q1",
+      "question": "Whats your favourite Color?",
       "answers":[
         {
-          "content": " A1",
-          "score": 6
+          "content": "Yellow",
+          "score": 5
         },
         {
-          "content": " A2",
+          "content": " Red",
           "score": 4
         },
         {
-          "content": " A3",
-          "score": 6
+          "content": " Blue",
+          "score": 3
         },
         {
-          "content": "A4 ",
+          "content": "Green",
           "score": 2
         }
       ]
@@ -47,6 +47,28 @@
     {
       "id":3,
       "question": "C1",
+      "answers":[
+        {
+          "content": " 3123123",
+          "score": 6
+        },
+        {
+          "content": " 123123",
+          "score": 4
+        },
+        {
+          "content": " asdff",
+          "score": 6
+        },
+        {
+          "content": "sdgdgh ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id":4,
+      "question": "123123",
       "answers":[
         {
           "content": " 3123123",
