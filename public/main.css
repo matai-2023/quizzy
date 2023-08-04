@@ -35,6 +35,8 @@ body {
   object-fit: cover;
   width: 230px;
   height: 230px;
+  border-width: 5px;
+  border-color: pink;
 }
 
 .title {
@@ -52,7 +54,6 @@ body {
   align-items: center;
   font-family: 'Roboto', sans-serif;
 }
-
 
 header {
   padding: 1%;
@@ -169,7 +170,6 @@ article {
   }
 }
 
-
 /*------------------------------------------------------*/
 /* Utility classes */
 .animate {
@@ -263,8 +263,8 @@ article {
   animation-name: bounce;
 }
 
-.pikachu{
-  padding-left:500px;
+.pikachu {
+  padding-left: 500px;
   width: 800px;
   height: 800px;
 }
