@@ -35,6 +35,8 @@ body {
   object-fit: cover;
   width: 230px;
   height: 230px;
+  border-width: 5px;
+  border-color: pink;
 }
 
 .title {
