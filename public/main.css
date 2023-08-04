@@ -35,6 +35,8 @@ body {
   object-fit: cover;
   width: 230px;
   height: 230px;
+  border-width: 5px;
+  border-color: pink;
 }
 
 .title {
@@ -44,6 +46,8 @@ body {
 .nav {
   text-align: center;
   color: black;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .form {
@@ -51,7 +55,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 
 header {
   padding: 1%;
@@ -167,7 +170,6 @@ article {
     background: #e74c3c;
   }
 }
-
 
 /*------------------------------------------------------*/
 /* Utility classes */
