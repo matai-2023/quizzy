@@ -32,3 +32,9 @@ server.get('/', (req, res) => {
 })
 server.use('/quizz', quizzz)
 export default server
+
+server.get('/about', async (req, res) => {
+  const usThree = people
+  const viewData = usThree
+  res.render('about', viewData)
+})
