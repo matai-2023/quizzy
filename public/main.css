@@ -46,8 +46,8 @@ body {
 .nav {
   text-align: center;
   color: black;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .form {
