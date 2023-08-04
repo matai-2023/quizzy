@@ -150,6 +150,12 @@ header {
   text-align: center;
 }
 
+article {
+  background-color: lightpink;
+  border-radius: 25px;
+  padding: 20px;
+}
+
 /* Poke button */
 
 .child-to-body {
