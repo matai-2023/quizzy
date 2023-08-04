@@ -33,11 +33,11 @@ quizzz.post('/', async (req, res) => {
   let totalScore = scoreArr.reduce((total, current) => total + current)
   console.log(totalScore)
   //conditions to render page
-  if (11 < totalScore < 16) {
+  if (11 < totalScore && totalScore < 16) {
     res.render('result', result[2])
-  } else if (15 < totalScore < 20) {
+  } else if (15 < totalScore && totalScore < 20) {
     res.render('result', result[3])
-  } else if (19 < totalScore < 25) {
+  } else if (19 < totalScore && totalScore < 25) {
     res.render('result', result[1])
   } else {
     res.render('result', result[0])
