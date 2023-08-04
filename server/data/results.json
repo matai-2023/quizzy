@@ -1,0 +1,20 @@
+{
+  "pokemon":[
+    {
+      "img":"/images/pikachu_wave.gif",
+      "name": "pikachu"
+    },
+    {
+      "img":"",
+      "name": "charmander"
+    },
+    {
+      "img":"",
+      "name": "bulbasaur"
+    },
+    {
+      "img":"",
+      "name": "squirtle"
+    }
+  ]
+}
