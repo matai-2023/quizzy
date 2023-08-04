@@ -50,7 +50,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -263,8 +262,8 @@ article {
   animation-name: bounce;
 }
 
-.pikachu{
-  padding-left:500px;
-  width: 800px;
+.pokepoke{
+  padding-left:700px;
+  width: 600px;
   height: 800px;
 }

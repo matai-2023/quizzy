@@ -16,3 +16,10 @@ quizzz.get('/', async (req, res) => {
   const question = JSON.parse(data)
   res.render('quizzes', question)
 })
+
+quizzz.post('/', async (req, res) => {
+  const filePath = Path.join(__dirname, 'data', 'results.json')
+  const data = await fs.readFile(filePath, 'utf-8')
+  const result = JSON.parse(data)
+  res.render('result', result.pokemon[2])
+})

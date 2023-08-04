@@ -1,20 +1,20 @@
 {
   "pokemon":[
     {
-      "img":"/images/pikachu_wave.gif",
-      "name": "pikachu"
+      "img":"/images/pikachu.gif",
+      "name": "Pikachu"
     },
     {
-      "img":"",
-      "name": "charmander"
+      "img":"/images/charmander-cute.gif",
+      "name": "Charmander"
     },
     {
-      "img":"",
-      "name": "bulbasaur"
+      "img":"/images/bulbasaur.gif",
+      "name": "Bulbasaur"
     },
     {
-      "img":"",
-      "name": "squirtle"
+      "img":"/images/squirtle_cool.gif",
+      "name": "Squirtle"
     }
   ]
 }

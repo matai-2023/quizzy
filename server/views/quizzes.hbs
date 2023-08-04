@@ -6,13 +6,15 @@
 <div style='display: flex; flex-direction:column; padding: 5px;' >
   <form class="form" action="/quizz" method="post">
   {{#each questions}}
-    <label for='html' style="padding: 20px;">{{question}}
+    <label for='html' style="padding: 20px;"><h4>{{question}}</h4>
+      <br> <br>
       {{#each answers}}
         <input type='radio' value='{{score}}' id='html' name='scoreOf{{../id}}' />
         {{content}}
       {{/each}}
     </label>
   {{/each}}
+  <br>
   <input type="submit" value="Submit">
 </form>
 </div>
